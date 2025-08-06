@@ -32,7 +32,9 @@ const BeforeAfterSlider = () => {
       beforeAlt: "Professional corporate headshot before AI transformation",
       afterAlt: "Superhero-themed AI transformation with cape and cityscape background",
       theme: "Superhero",
-      useCase: "Corporate events, team building"
+      useCase: "Corporate events, team building",
+      location: "KLCC Corporate Event",
+      event: "Tech Conference 2024"
     },
     {
       id: 2,
@@ -44,7 +46,9 @@ const BeforeAfterSlider = () => {
       beforeAlt: "Traditional wedding couple photo before AI enhancement",
       afterAlt: "Fairytale-themed wedding transformation with enchanted forest background",
       theme: "Fairytale",
-      useCase: "Weddings, anniversaries"
+      useCase: "Weddings, anniversaries",
+      location: "Shah Alam Wedding",
+      event: "Garden Wedding Reception"
     },
     {
       id: 3,
@@ -118,11 +122,11 @@ const BeforeAfterSlider = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             <Sparkles className="inline w-8 h-8 mr-2 text-primary" />
-            AI Photobooth Magic in Action
+            AI Photobooth Rental Kuala Lumpur - Live Demo
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            See how our AI transforms ordinary photos into extraordinary memories. 
-            Real transformations from events across Kuala Lumpur and Selangor.
+            Interactive before & after slider from real KL & Selangor events. 
+            Drag to see instant AI transformations from our photobooth rental service.
           </p>
         </div>
 
@@ -234,8 +238,11 @@ const BeforeAfterSlider = () => {
                     {currentTransformation.description}
                   </p>
                   
-                  <p className="text-sm text-primary/80 mb-4">
+                  <p className="text-sm text-primary/80 mb-2">
                     Perfect for: {currentTransformation.useCase}
+                  </p>
+                  <p className="text-xs text-muted-foreground mb-4 italic">
+                    Demo from: {currentTransformation.location} • {currentTransformation.event}
                   </p>
                   
                   {/* Theme Tag */}
