@@ -4,36 +4,32 @@ import { MapPin, Clock, Shield, Smartphone } from "lucide-react";
 const FAQ = () => {
   const faqs = [
     {
-      question: "Which areas in KL & Selangor do you cover?",
-      answer: "We provide full coverage across Kuala Lumpur and Selangor including KL City Centre, Petaling Jaya, Shah Alam, Subang Jaya, Klang, Kajang, Cheras, Ampang, and surrounding areas. Travel charges may apply for locations beyond 30km from KL city center."
+      question: "Do you provide AI photobooth rental coverage across Kuala Lumpur and Selangor?",
+      answer: "Yes! We provide comprehensive AI photobooth rental services throughout Kuala Lumpur, Selangor, and the entire Klang Valley including Petaling Jaya, Subang Jaya, Shah Alam, Klang, Kajang, and Cyberjaya. Free delivery and setup within our service areas."
     },
     {
-      question: "How much space do you need for setup?",
-      answer: "Our AI photobooth requires a minimum space of 3m x 3m (10ft x 10ft) with access to power outlets. We provide all equipment including lighting, backdrop, and props. The setup is compact and suitable for most indoor venues."
+      question: "What makes your AI photobooth rental in KL different from regular photobooths?",
+      answer: "Our exclusive AI photobooth rental Kuala Lumpur service uses advanced artificial intelligence for real-time background removal, AR filters, and automatic photo enhancement. Unlike traditional photobooths, guests get professional-quality photos with instant background changes and virtual props."
     },
     {
-      question: "Can you set up outdoors for garden parties or weddings?",
-      answer: "Yes! We offer weather-resistant setups for outdoor events. However, we require covered areas or tents to protect the equipment from direct sunlight and rain. Additional weatherproofing fees may apply."
+      question: "How much space do you need for AI photobooth setup in Selangor venues?",
+      answer: "We typically require a 3m x 3m (10ft x 10ft) space for our standard AI photobooth setup across Selangor venues. This includes room for the photobooth, backdrop, props table, and guest queue area. We can accommodate smaller spaces with our compact setup options."
     },
     {
-      question: "What branding and customization options are available?",
-      answer: "We offer comprehensive branding including custom backgrounds, photo frames, event logos, company branding, wedding themes, and personalized overlays. All designs are included in our packages with unlimited photo templates."
+      question: "Is your photobooth suitable for outdoor events in KL and Selangor?",
+      answer: "Yes, our AI photobooth rental works perfectly for outdoor events across KL and Selangor. We provide weather-resistant equipment and can set up under tents or covered areas. Popular for garden weddings, corporate outdoor events, and festivals throughout the Klang Valley."
     },
     {
-      question: "How do guests get their photos instantly?",
-      answer: "Guests receive photos through multiple channels: instant QR code scanning (no app needed), direct WhatsApp sharing, email delivery, and optional USB/cloud gallery access. All photos are available immediately after capture."
+      question: "How fast is the instant sharing for events in Kuala Lumpur?",
+      answer: "Our AI photobooth provides lightning-fast instant sharing via QR codes, WhatsApp, and email within 3-5 seconds after photo capture. Perfect for social media sharing during events across Kuala Lumpur and Selangor, keeping your guests engaged and connected."
     },
     {
-      question: "What's included in the rental package?",
-      answer: "Complete package includes: AI photobooth with latest software, professional lighting setup, custom backdrop, unlimited instant prints, QR sharing system, on-site technician, setup & breakdown, and 4-6 hours of operation time."
+      question: "Can you customize branding for corporate events in Selangor?",
+      answer: "Absolutely! Our AI photobooth rental Selangor service offers complete custom branding including company logos, themed backgrounds, branded photo layouts, and custom AR filters. Perfect for corporate events, product launches, and brand activations across the Klang Valley."
     },
     {
-      question: "How far in advance should we book?",
-      answer: "We recommend booking 2-4 weeks in advance, especially for weekend events. However, we can accommodate last-minute bookings subject to availability. Peak seasons (CNY, Raya, wedding seasons) require earlier booking."
-    },
-    {
-      question: "Do you provide backup equipment?",
-      answer: "Absolutely! We always bring backup cameras, printers, and essential components to every event. Our technicians are trained to handle any technical issues immediately to ensure uninterrupted service."
+      question: "Do you offer same-day AI photobooth booking in KL?",
+      answer: "Yes, we offer same-day AI photobooth rental booking across KL and Selangor subject to availability. Our local team can often accommodate urgent requests. Call us directly for emergency bookings and last-minute events in the Kuala Lumpur area."
     }
   ];
 

@@ -5,27 +5,27 @@ const OurDifference = () => {
   const achievements = [
     {
       icon: Award,
-      number: "8+",
-      label: "Years Experience",
-      description: "Pioneering digital event technology in Malaysia since 2016"
+      number: "8",
+      label: "Years Serving KL & Selangor",
+      description: "Professional AI photobooth rental experience across Kuala Lumpur and Selangor"
     },
     {
-      icon: Code,
-      number: "100%",
-      label: "Custom Software",
-      description: "Proprietary AI algorithms developed in-house for superior performance"
+      icon: Users,
+      number: "1200+",
+      label: "Events Completed",
+      description: "Over 1,200 successful events across KL, Petaling Jaya, Shah Alam & Selangor"
     },
     {
       icon: Star,
       number: "5.0",
       label: "Star Rating",
-      description: "Consistent excellence across 500+ events in KL & Selangor"
+      description: "Consistent 5-star reviews from clients across KL & Selangor areas"
     },
     {
-      icon: Users,
-      number: "50K+",
-      label: "Happy Guests",
-      description: "Memories created and smiles captured at countless celebrations"
+      icon: Code,
+      number: "100%",
+      label: "Custom AI Software",
+      description: "Proprietary AI algorithms developed in-house for superior photobooth performance"
     }
   ];
 

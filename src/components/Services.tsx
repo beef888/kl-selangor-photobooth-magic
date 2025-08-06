@@ -31,10 +31,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
-            Revolutionary AI Photobooth Experience
+            Premium AI Photobooth Rental Features in Kuala Lumpur & Selangor
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            We've combined cutting-edge AI technology with professional event services to create unforgettable moments for your guests
+            Our exclusive AI photobooth rental Kuala Lumpur & Selangor service brings cutting-edge technology to your events with professional features that create unforgettable memories across KL and Selangor.
           </p>
         </div>
         
@@ -42,7 +42,7 @@ const Services = () => {
           <div>
             <img 
               src={setupImage} 
-              alt="AI Photobooth Setup"
+              alt="AI Photobooth Rental Setup Kuala Lumpur Selangor - Professional Event Photography"
               className="rounded-2xl shadow-elegant w-full h-auto"
             />
           </div>

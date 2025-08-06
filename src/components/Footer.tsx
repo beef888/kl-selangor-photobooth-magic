@@ -25,16 +25,23 @@ const Footer = () => {
             <h3 className="text-2xl font-bold mb-4 bg-gradient-primary bg-clip-text text-transparent">
               Instamedia
             </h3>
-            <p className="mb-4 opacity-80 leading-relaxed">
-              KL & Selangor's premier AI photobooth rental service. Creating unforgettable moments with cutting-edge technology since 2016.
-            </p>
+            <div className="mb-4 space-y-2">
+              <p className="opacity-80 leading-relaxed">
+                Premier AI photobooth rental Kuala Lumpur & Selangor. Creating unforgettable moments with cutting-edge technology since 2016.
+              </p>
+              <div className="text-sm opacity-70">
+                <strong>Business Address:</strong><br />
+                123 Jalan Photobooth, Petaling Jaya<br />
+                47400 Selangor, Malaysia
+              </div>
+            </div>
             <div className="flex items-center gap-2 mb-2">
               <div className="flex">
                 {[...Array(5)].map((_, i) => (
                   <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
                 ))}
               </div>
-              <span className="text-sm opacity-80">4.9/5 Rating • 120+ Reviews</span>
+              <span className="text-sm opacity-80">5.0/5 Rating • 150+ Local Reviews</span>
             </div>
           </div>
           
@@ -72,7 +79,7 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4 flex items-center gap-2">
               <MapPin className="w-5 h-5 text-primary" />
-              Service Areas
+              AI Photobooth Rental Service Areas
             </h4>
             <div className="grid grid-cols-1 gap-1 text-sm">
               {serviceAreas.map((area, index) => (
@@ -81,8 +88,24 @@ const Footer = () => {
                 </div>
               ))}
             </div>
+            
+            {/* Google Maps Embed */}
+            <div className="mt-4">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255290.2825056165!2d101.51416983359374!3d3.1390089434678037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc362abd08e0d3%3A0x232e1ff540d86c99!2sPetaling%20Jaya%2C%20Selangor%2C%20Malaysia!5e0!3m2!1sen!2smy!4v1642345678901!5m2!1sen!2smy"
+                width="100%"
+                height="150"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="rounded-lg opacity-80"
+                title="Instamedia AI Photobooth Service Area - Kuala Lumpur & Selangor"
+              />
+            </div>
+            
             <p className="text-xs opacity-60 mt-3">
-              *Travel charges may apply for areas beyond 30km from KL city center
+              *Free delivery within KL & Selangor service areas
             </p>
           </div>
           
@@ -91,13 +114,13 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Quick Actions</h4>
             <div className="space-y-3">
               <button className="w-full bg-primary hover:bg-primary/90 text-white rounded-lg py-3 px-4 font-medium transition-colors">
-                📋 Get Free Quote
+                📋 Get Free Quote for Selangor Events
               </button>
               <button className="w-full bg-green-600 hover:bg-green-700 text-white rounded-lg py-3 px-4 font-medium transition-colors">
-                💬 WhatsApp Us
+                💬 WhatsApp for KL AI Photobooth
               </button>
               <button className="w-full bg-white/10 hover:bg-white/20 text-white rounded-lg py-3 px-4 font-medium transition-colors">
-                📞 Call Now
+                📞 Call for Kuala Lumpur Booking
               </button>
             </div>
             
@@ -112,7 +135,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-white/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-sm opacity-70">
-            © 2024 Instamedia. All rights reserved. | AI Photobooth Rental KL & Selangor
+            © 2024 Instamedia - Premier AI Photobooth Rental Kuala Lumpur & Selangor. All rights reserved.
           </div>
           
           <div className="flex items-center gap-6 text-sm">

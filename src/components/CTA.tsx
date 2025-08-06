@@ -11,10 +11,10 @@ const CTA = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-6xl font-bold mb-6">
-            Ready to Create Unforgettable Memories?
+            Book Your AI Photobooth Rental in Kuala Lumpur & Selangor Today
           </h2>
           <p className="text-xl md:text-2xl mb-4 opacity-90 max-w-3xl mx-auto">
-            Join 500+ satisfied clients across KL & Selangor who chose Instamedia for their special events
+            Join 1200+ satisfied clients across KL and Selangor who chose our premium AI photobooth rental. Get your free quote for Kuala Lumpur and Selangor events today!
           </p>
           <p className="text-lg opacity-75 max-w-2xl mx-auto">
             Get your free consultation and personalized quote within 2 hours. No commitment required.
@@ -50,18 +50,18 @@ const CTA = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
             <Button variant="secondary" size="lg" className="text-lg px-8 py-4 bg-white text-primary hover:bg-white/90">
-              📋 Get Free Detailed Quote
+              📋 Get Free Quote for Selangor Events
             </Button>
             
             <div className="flex gap-3">
               <Button variant="outline" size="lg" className="bg-white/20 border-white/30 text-white hover:bg-white/30 flex items-center gap-2">
                 <Phone className="w-5 h-5" />
-                Call +60 12-345-6789
+                Call Now to Book Your AI Photobooth in Kuala Lumpur
               </Button>
               
               <Button variant="outline" size="lg" className="bg-green-600 border-green-500 text-white hover:bg-green-700 flex items-center gap-2">
                 <MessageCircle className="w-5 h-5" />
-                WhatsApp
+                WhatsApp Us for KL AI Photobooth Rental
               </Button>
             </div>
           </div>
@@ -74,11 +74,11 @@ const CTA = () => {
               </div>
               <div className="hidden sm:block w-px h-6 bg-white/30" />
               <div className="font-medium">
-                📍 Serving KL, PJ, Shah Alam, Subang & All Selangor
+                📍 AI Photobooth Rental serving Kuala Lumpur, Petaling Jaya, Shah Alam, Subang Jaya & all Selangor areas
               </div>
               <div className="hidden sm:block w-px h-6 bg-white/30" />
               <div className="font-medium">
-                ⚡ Same-Day Booking Available
+                ⚡ Same-Day Booking Available for KL & Selangor
               </div>
             </div>
           </div>
