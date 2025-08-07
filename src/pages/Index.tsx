@@ -5,7 +5,7 @@ import HowItWorks from "@/components/HowItWorks";
 import ServiceArea from "@/components/ServiceArea";
 import BeforeAfterSlider from "@/components/BeforeAfterSlider";
 import CaseStudies from "@/components/CaseStudies";
-import Pricing from "@/components/Pricing";
+
 import OurDifference from "@/components/OurDifference";
 import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
@@ -22,7 +22,7 @@ const Index = () => {
       <ServiceArea />
       <BeforeAfterSlider />
       <CaseStudies />
-      <Pricing />
+      
       <OurDifference />
       <Testimonials />
       <FAQ />
