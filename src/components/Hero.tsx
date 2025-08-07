@@ -24,9 +24,11 @@ const Hero = () => {
           <span className="text-sm font-medium">5-Star Rated Service</span>
         </div>
         
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-          #1 AI Photobooth Rental in
-          <span className="bg-gradient-primary bg-clip-text text-transparent block">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight drop-shadow-lg text-shadow-lg">
+          <span className="drop-shadow-2xl">
+            #1 AI Photobooth Rental in
+          </span>
+          <span className="bg-gradient-primary bg-clip-text text-transparent block drop-shadow-2xl">
             Kuala Lumpur & Selangor
           </span>
         </h1>
