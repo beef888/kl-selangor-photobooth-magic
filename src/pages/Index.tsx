@@ -11,10 +11,16 @@ import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
+import SEO from "@/components/SEO";
 
 const Index = () => {
   return (
-    <div className="min-h-screen">
+    <main className="min-h-screen"> 
+      <SEO
+        title="AI Photobooth Rental Kuala Lumpur & Selangor | Instamedia"
+        description="Premium AI photobooth rental across KL & Selangor. Instant AR filters, custom branding, QR sharing, and professional prints. Perfect for weddings and corporate events."
+        canonical={typeof window !== "undefined" ? window.location.href : undefined}
+      />
       <Hero />
       <TrustStrip />
       <HowItWorks />
@@ -28,7 +34,7 @@ const Index = () => {
       <FAQ />
       <CTA />
       <Footer />
-    </div>
+    </main>
   );
 };
 

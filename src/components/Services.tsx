@@ -44,6 +44,9 @@ const Services = () => {
               src={setupImage} 
               alt="AI Photobooth Rental Setup Kuala Lumpur Selangor - Professional Event Photography"
               className="rounded-2xl shadow-elegant w-full h-auto"
+              loading="lazy"
+              decoding="async"
+              sizes="(max-width: 768px) 100vw, 600px"
             />
           </div>
           

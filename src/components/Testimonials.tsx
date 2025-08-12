@@ -63,8 +63,11 @@ const Testimonials = () => {
                   {testimonial.image && (
                     <img 
                       src={testimonial.image} 
-                      alt={testimonial.name}
+                      alt={`${testimonial.name} - ${testimonial.event}`}
                       className="w-12 h-12 rounded-full object-cover"
+                      loading="lazy"
+                      decoding="async"
+                      sizes="48px"
                     />
                   )}
                   {!testimonial.image && (
