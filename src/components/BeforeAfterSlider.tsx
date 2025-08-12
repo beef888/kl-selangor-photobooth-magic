@@ -5,8 +5,6 @@ import { Card } from "@/components/ui/card";
 import { Slider } from "@/components/ui/slider";
 import beforeCorporate from "@/assets/before-corporate-portrait.jpg";
 import afterSuperhero from "@/assets/after-superhero-transform.jpg";
-import beforeWedding from "@/assets/before-wedding-couple.jpg";
-import afterFairytale from "@/assets/after-fairytale-wedding.jpg";
 import beforeBusiness from "@/assets/before-business-executive.jpg";
 import afterAstronaut from "@/assets/after-astronaut-transform.jpg";
 import beforeTraditional from "@/assets/before-traditional-costume.jpg";
@@ -35,20 +33,6 @@ const BeforeAfterSlider = () => {
       useCase: "Corporate events, team building",
       location: "KLCC Corporate Event",
       event: "Tech Conference 2024"
-    },
-    {
-      id: 2,
-      title: "Wedding to Fairytale",
-      category: "Social Events",
-      description: "Turn wedding photos into magical fairytale moments",
-      beforeImage: beforeWedding,
-      afterImage: afterFairytale,
-      beforeAlt: "Traditional wedding couple photo before AI enhancement",
-      afterAlt: "Fairytale-themed wedding transformation with enchanted forest background",
-      theme: "Fairytale",
-      useCase: "Weddings, anniversaries",
-      location: "Shah Alam Wedding",
-      event: "Garden Wedding Reception"
     },
     {
       id: 3,

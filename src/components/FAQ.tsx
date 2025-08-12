@@ -17,7 +17,7 @@ const FAQ = () => {
     },
     {
       question: "Is your photobooth suitable for outdoor events in KL and Selangor?",
-      answer: "Yes, our AI photobooth rental works perfectly for outdoor events across KL and Selangor. We provide weather-resistant equipment and can set up under tents or covered areas. Popular for garden weddings, corporate outdoor events, and festivals throughout the Klang Valley."
+      answer: "Yes, our AI photobooth rental works perfectly for outdoor events across KL and Selangor. We provide weather-resistant equipment and can set up under tents or covered areas. Popular for corporate outdoor events, brand activations, and festivals throughout the Klang Valley."
     },
     {
       question: "How fast is the instant sharing for events in Kuala Lumpur?",

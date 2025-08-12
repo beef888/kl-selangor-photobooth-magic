@@ -38,24 +38,24 @@ const Hero = () => {
         </p>
         
         <p className="text-lg mb-8 max-w-2xl mx-auto opacity-80">
-          Premium AI photobooth rental Kuala Lumpur & Selangor. Instant AR filters, custom branding, QR sharing & professional printing. 
-          Perfect for weddings, corporate events, and celebrations across KL, Petaling Jaya, Shah Alam & Selangor.
+          Premium AI photobooth rental Kuala Lumpur & Selangor. Instant AR filters, custom branding, QR sharing & professional printing.
+          Purpose-built for corporate events, conferences, trade shows, brand activations and enterprise functions across KL & Selangor.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
           <Button variant="hero" size="lg" className="text-lg px-8 py-4">
-            Get Free Quote for Selangor Events
+            Get Corporate Quote
           </Button>
           
           <div className="flex gap-3">
             <Button variant="cta" size="lg" className="flex items-center gap-2">
               <Phone className="w-5 h-5" />
-              Call Now to Book Your AI Photobooth in Kuala Lumpur
+              Call Sales in Kuala Lumpur
             </Button>
             
             <Button variant="whatsapp" size="lg" className="flex items-center gap-2">
               <MessageCircle className="w-5 h-5" />
-              WhatsApp Us for KL AI Photobooth Rental
+              WhatsApp Sales (KL & Selangor)
             </Button>
           </div>
         </div>

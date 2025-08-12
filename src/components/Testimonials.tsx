@@ -1,18 +1,9 @@
 import { Star, Quote } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
-import testimonial1 from "@/assets/customer-testimonial-1.jpg";
 import testimonial2 from "@/assets/customer-testimonial-2.jpg";
 
 const Testimonials = () => {
   const testimonials = [
-    {
-      name: "Sarah & Ahmad",
-      event: "Wedding Reception at The Majestic Hotel KL",
-      rating: 5,
-      text: "The AI photobooth was the highlight of our wedding! Our guests loved the instant AR filters and the prints came out beautifully. The team was so professional and set everything up perfectly. Highly recommend for any KL wedding!",
-      image: testimonial1,
-      location: "Kuala Lumpur"
-    },
     {
       name: "David Tan",
       event: "Corporate Annual Dinner",

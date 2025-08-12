@@ -1,9 +1,9 @@
-import { Building2, Heart, Rocket, Users, Star, ArrowRight } from "lucide-react";
+import { Building2, Rocket, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import corporateCase from "@/assets/case-study-corporate.jpg";
-import weddingCase from "@/assets/case-study-wedding.jpg";
+
 import productLaunchCase from "@/assets/case-study-product-launch.jpg";
 
 const CaseStudies = () => {
@@ -33,32 +33,6 @@ const CaseStudies = () => {
       testimonial: "The AI photobooth was the highlight of our event. Professional quality photos that our employees are still using as profile pictures months later!",
       person: "Sarah Chen",
       role: "Event Manager"
-    },
-    {
-      id: 2,
-      title: "Luxury Wedding Reception",
-      client: "Priya & Ahmad Wedding",
-      location: "The Majestic Hotel, Kuala Lumpur",
-      event: "Garden Wedding Reception",
-      guests: 200,
-      image: weddingCase,
-      icon: Heart,
-      highlights: [
-        "Fairytale and romantic theme transformations",
-        "Couple's custom wedding logo integration",
-        "Guest book alternative with instant prints",
-        "Family portrait enhancements",
-        "Traditional Malaysian cultural backgrounds"
-      ],
-      results: {
-        photos: "1,800+ photos", 
-        sharing: "100% couple satisfaction",
-        engagement: "5.0/5 guest reviews",
-        impact: "Wedding album enhancement"
-      },
-      testimonial: "Our guests couldn't stop talking about the magical photo transformations. It perfectly captured the fairytale theme of our wedding!",
-      person: "Priya Sharma",
-      role: "Bride"
     },
     {
       id: 3,
@@ -98,17 +72,6 @@ const CaseStudies = () => {
         "Team building events",
         "Award ceremonies",
         "Conference activations"
-      ]
-    },
-    {
-      industry: "Weddings & Social",
-      icon: Heart,
-      applications: [
-        "Wedding receptions",
-        "Engagement parties",
-        "Birthday celebrations", 
-        "Anniversary parties",
-        "Cultural festivals"
       ]
     },
     {

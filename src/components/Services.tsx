@@ -74,7 +74,7 @@ const Services = () => {
             <span className="text-3xl">🎯</span>
             <div className="text-left">
               <h3 className="font-semibold">Perfect for Any Event</h3>
-              <p className="text-muted-foreground">Weddings • Corporate Events • Birthday Parties • Product Launches • Festivals</p>
+              <p className="text-muted-foreground">Corporate Events • Conferences • Trade Shows • Product Launches • Brand Activations</p>
             </div>
           </div>
         </div>

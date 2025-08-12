@@ -17,8 +17,8 @@ const Index = () => {
   return (
     <main className="min-h-screen"> 
       <SEO
-        title="AI Photobooth Rental Kuala Lumpur & Selangor | Instamedia"
-        description="Premium AI photobooth rental across KL & Selangor. Instant AR filters, custom branding, QR sharing, and professional prints. Perfect for weddings and corporate events."
+        title="Corporate AI Photobooth Rental Kuala Lumpur & Selangor | Instamedia"
+        description="Enterprise-grade AI photobooth for corporate events, conferences, trade shows and brand activations across KL & Selangor. Instant sharing, custom branding, pro prints."
         canonical={typeof window !== "undefined" ? window.location.href : undefined}
       />
       <Hero />
