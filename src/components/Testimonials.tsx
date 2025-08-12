@@ -1,6 +1,7 @@
 import { Star, Quote } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import testimonial2 from "@/assets/customer-testimonial-2.jpg";
+import testimonial1 from "@/assets/customer-testimonial-1.jpg";
 
 const Testimonials = () => {
   const testimonials = [
@@ -13,12 +14,12 @@ const Testimonials = () => {
       location: "Petaling Jaya, Selangor"
     },
     {
-      name: "Priya Sharma",
-      event: "Birthday Celebration",
+      name: "Aisha Rahman",
+      event: "Trade Show Activation",
       rating: 5,
-      text: "Booked for my daughter's 21st birthday party in Shah Alam. The AI effects were so cool and modern - exactly what we wanted! The setup was quick and the team was very helpful throughout the event.",
-      image: null,
-      location: "Shah Alam, Selangor"
+      text: "We used Instamedia for our KL trade show booth. The branded overlays and instant QR sharing helped us capture 800+ leads in two days. Seamless and professional.",
+      image: testimonial1,
+      location: "Kuala Lumpur Convention Centre"
     }
   ];
 

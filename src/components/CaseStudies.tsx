@@ -111,11 +111,14 @@ const CaseStudies = () => {
                 <div className={`${index % 2 === 1 ? 'lg:order-2' : ''}`}>
                   <img
                     src={study.image}
-                    alt={`${study.title} - AI Photobooth Case Study`}
+                    alt={`${study.title} - AI Photobooth Case Study in Kuala Lumpur & Selangor`}
                     className="w-full h-full object-cover min-h-[300px]"
+                    loading="lazy"
+                    decoding="async"
+                    sizes="(max-width: 1024px) 100vw, 50vw"
                   />
                 </div>
-                
+
                 <CardContent className={`p-8 flex flex-col justify-center ${index % 2 === 1 ? 'lg:order-1' : ''}`}>
                   <div className="flex items-center gap-3 mb-4">
                     <div className="bg-gradient-primary p-3 rounded-lg">
