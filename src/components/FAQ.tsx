@@ -94,13 +94,13 @@ const FAQ = () => {
               <p className="mb-6 opacity-90">Our team is ready to help you plan the perfect event experience</p>
               <div className="space-y-3">
                 <button className="w-full bg-white/20 hover:bg-white/30 transition-colors rounded-lg py-3 px-4 font-medium">
-                  📞 Call: +60 12-345-6789
+                  📞 Call: +60 12-661 6973
                 </button>
                 <button className="w-full bg-white/20 hover:bg-white/30 transition-colors rounded-lg py-3 px-4 font-medium">
                   💬 WhatsApp Us Now
                 </button>
                 <button className="w-full bg-white/20 hover:bg-white/30 transition-colors rounded-lg py-3 px-4 font-medium">
-                  ✉️ hello@instamedia.my
+                  ✉️ Email our team
                 </button>
               </div>
             </div>

@@ -9,7 +9,7 @@ const Testimonials = () => {
       name: "David Tan",
       event: "Corporate Annual Dinner",
       rating: 5,
-      text: "Instamedia exceeded our expectations for our company's 10th anniversary celebration. The custom branding looked amazing and the QR sharing feature meant everyone got their photos instantly. Our 200+ employees had a blast!",
+      text: "They exceeded our expectations for our company's 10th anniversary celebration. The custom branding looked amazing and the QR sharing feature meant everyone got their photos instantly. Our 200+ employees had a blast!",
       image: testimonial2,
       location: "Petaling Jaya, Selangor"
     },
@@ -17,7 +17,7 @@ const Testimonials = () => {
       name: "Aisha Rahman",
       event: "Trade Show Activation",
       rating: 5,
-      text: "We used Instamedia for our KL trade show booth. The branded overlays and instant QR sharing helped us capture 800+ leads in two days. Seamless and professional.",
+      text: "We used this team for our KL trade show booth. The branded overlays and instant QR sharing helped us capture 800+ leads in two days. Seamless and professional.",
       image: testimonial1,
       location: "Kuala Lumpur Convention Centre"
     }

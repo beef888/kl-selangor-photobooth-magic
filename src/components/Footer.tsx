@@ -23,7 +23,7 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <h3 className="text-2xl font-bold mb-4 bg-gradient-primary bg-clip-text text-transparent">
-              Instamedia
+              AI Photobooth KL & Selangor
             </h3>
             <div className="mb-4 space-y-2">
               <p className="opacity-80 leading-relaxed">
@@ -52,7 +52,7 @@ const Footer = () => {
               <div className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-primary" />
                 <div>
-                  <p className="font-medium">+60 12-345-6789</p>
+                  <p className="font-medium">+60 12-661 6973</p>
                   <p className="text-sm opacity-70">Available 7 days a week</p>
                 </div>
               </div>
@@ -60,7 +60,7 @@ const Footer = () => {
               <div className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-primary" />
                 <div>
-                  <p className="font-medium">hello@instamedia.my</p>
+                  <p className="font-medium">Email our team</p>
                   <p className="text-sm opacity-70">Quick email response</p>
                 </div>
               </div>
@@ -100,7 +100,7 @@ const Footer = () => {
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 className="rounded-lg opacity-80"
-                title="Instamedia AI Photobooth Service Area - Kuala Lumpur & Selangor"
+                title="AI Photobooth Service Area - Kuala Lumpur & Selangor"
               />
             </div>
             
@@ -135,7 +135,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-white/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-sm opacity-70">
-            © 2024 Instamedia - Premier AI Photobooth Rental Kuala Lumpur & Selangor. All rights reserved.
+            © 2024 AI Photobooth KL & Selangor. All rights reserved.
           </div>
           
           <div className="flex items-center gap-6 text-sm">

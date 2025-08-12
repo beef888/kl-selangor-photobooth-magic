@@ -101,7 +101,7 @@ const HowItWorks = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://wa.me/60123456789"
+              href="https://wa.me/60126616973?text=Hi%2C%20I%27m%20interested%20in%20a%20corporate%20AI%20photobooth%20in%20KL%2FSelangor.%20Event%20date%3A%20%5Bdate%5D%2C%20venue%3A%20%5Bvenue%5D%2C%20guests%3A%20%5Bcount%5D.%20Please%20share%20packages%2C%20availability%2C%20branding%20options%2C%20and%20lead%20capture.%20Thanks%21"
               className="inline-flex items-center px-6 py-3 bg-gradient-primary text-primary-foreground rounded-lg font-semibold hover:shadow-glow transition-all duration-300"
             >
               WhatsApp Demo Request

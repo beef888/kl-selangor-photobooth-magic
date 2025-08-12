@@ -34,7 +34,7 @@ const OurDifference = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Why Choose <span className="bg-gradient-primary bg-clip-text text-transparent">Instamedia</span>?
+            Why Choose <span className="bg-gradient-primary bg-clip-text text-transparent">Us</span>?
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             We're not just another photobooth rental - we're KL's leading AI event technology specialists
@@ -59,7 +59,7 @@ const OurDifference = () => {
         </div>
         
         <div className="bg-gradient-primary rounded-3xl p-8 md:p-12 text-white text-center">
-          <h3 className="text-3xl md:text-4xl font-bold mb-4">The Instamedia Advantage</h3>
+          <h3 className="text-3xl md:text-4xl font-bold mb-4">Our Advantage</h3>
           <div className="grid md:grid-cols-3 gap-8 mt-8">
             <div>
               <h4 className="text-xl font-semibold mb-3">🚀 Latest Technology</h4>
