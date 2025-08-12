@@ -1,0 +1,9 @@
+# Ensure React Router SPA works on Apache (cPanel)
+Options -MultiViews
+RewriteEngine On
+RewriteBase /
+
+# Redirect all requests to index.html except existing files/directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.html [L]
