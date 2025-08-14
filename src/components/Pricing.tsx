@@ -178,7 +178,7 @@ const Pricing = () => {
                 Request Custom Quote
               </Button>
               <Button className="bg-gradient-primary hover:shadow-glow">
-                WhatsApp Instant Quote
+                Get Instant Quote
               </Button>
             </div>
           </div>

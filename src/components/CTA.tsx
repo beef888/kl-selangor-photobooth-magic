@@ -35,8 +35,8 @@ const CTA = () => {
               <div className="bg-white/20 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <MessageCircle className="w-8 h-8" />
               </div>
-              <h3 className="text-xl font-semibold mb-2">WhatsApp Chat</h3>
-              <p className="opacity-80">Quick questions? Chat with us on WhatsApp for instant replies</p>
+               <h3 className="text-xl font-semibold mb-2">Live Chat</h3>
+               <p className="opacity-80">Quick questions? Contact us for instant replies</p>
             </div>
             
             <div className="text-center">
@@ -59,9 +59,9 @@ const CTA = () => {
                 Call Now to Book Your AI Photobooth in Kuala Lumpur
               </Button>
               
-              <Button variant="outline" size="lg" className="bg-green-600 border-green-500 text-white hover:bg-green-700 flex items-center gap-2">
-                <MessageCircle className="w-5 h-5" />
-                WhatsApp Us for KL AI Photobooth Rental
+              <Button variant="outline" size="lg" className="flex items-center gap-2">
+                <Phone className="w-5 h-5" />
+                Call +60 12-661 6973
               </Button>
             </div>
           </div>

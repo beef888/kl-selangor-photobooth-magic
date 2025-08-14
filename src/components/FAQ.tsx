@@ -96,8 +96,11 @@ const FAQ = () => {
                 <button className="w-full bg-white/20 hover:bg-white/30 transition-colors rounded-lg py-3 px-4 font-medium">
                   📞 Call: +60 12-661 6973
                 </button>
-                <button className="w-full bg-white/20 hover:bg-white/30 transition-colors rounded-lg py-3 px-4 font-medium">
-                  💬 WhatsApp Us Now
+                <button 
+                  className="w-full bg-white/20 hover:bg-white/30 transition-colors rounded-lg py-3 px-4 font-medium"
+                  onClick={() => window.open('tel:+60126616973')}
+                >
+                  📞 Call +60 12-661 6973
                 </button>
                 <button className="w-full bg-white/20 hover:bg-white/30 transition-colors rounded-lg py-3 px-4 font-medium">
                   ✉️ Email our team
