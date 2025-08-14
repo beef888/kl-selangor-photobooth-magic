@@ -47,17 +47,10 @@ const Hero = () => {
             Get Corporate Quote
           </Button>
           
-          <div className="flex gap-3">
-            <Button variant="cta" size="lg" className="flex items-center gap-2 hover:scale-105 transition-transform">
-              <Phone className="w-5 h-5" />
-              Call Aipixel Sales in KL
-            </Button>
-            
-            <Button variant="whatsapp" size="lg" className="flex items-center gap-2 hover:scale-105 transition-transform">
-              <MessageCircle className="w-5 h-5" />
-              WhatsApp Aipixel (KL & Selangor)
-            </Button>
-          </div>
+           <Button variant="whatsapp" size="lg" className="flex items-center gap-2 hover:scale-105 transition-transform">
+             <MessageCircle className="w-5 h-5" />
+             WhatsApp Aipixel (KL & Selangor)
+           </Button>
         </div>
         
         <div className="text-sm opacity-75 animate-fade-in" style={{ animationDelay: '0.8s' }}>
