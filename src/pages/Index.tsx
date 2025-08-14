@@ -17,8 +17,8 @@ const Index = () => {
   return (
     <main className="min-h-screen"> 
       <SEO
-        title="Corporate AI Photobooth Rental Kuala Lumpur & Selangor"
-        description="Enterprise-grade AI photobooth for corporate events, conferences, trade shows and brand activations across KL & Selangor. Instant sharing, custom branding, pro prints."
+        title="Aipixel - Corporate AI Photobooth Rental Kuala Lumpur & Selangor"
+        description="Enterprise-grade AI photobooth for corporate events, conferences, trade shows and brand activations across KL & Selangor. Instant sharing, custom branding, pro prints by Aipixel."
         canonical={typeof window !== "undefined" ? window.location.href : undefined}
       />
       <Hero />

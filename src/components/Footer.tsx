@@ -23,11 +23,11 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <h3 className="text-2xl font-bold mb-4 bg-gradient-primary bg-clip-text text-transparent">
-              AI Photobooth KL & Selangor
+              Aipixel - AI Photobooth KL & Selangor
             </h3>
             <div className="mb-4 space-y-2">
               <p className="opacity-80 leading-relaxed">
-                Premier AI photobooth rental Kuala Lumpur & Selangor. Creating unforgettable moments with cutting-edge technology since 2016.
+                <strong>Aipixel</strong> - Premier AI photobooth rental Kuala Lumpur & Selangor. Creating unforgettable moments with cutting-edge technology since 2016.
               </p>
               <div className="text-sm opacity-70">
                 <strong>Business Address:</strong><br />
@@ -113,14 +113,23 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Quick Actions</h4>
             <div className="space-y-3">
-              <button className="w-full bg-primary hover:bg-primary/90 text-white rounded-lg py-3 px-4 font-medium transition-colors">
-                📋 Get Free Quote for Selangor Events
+              <button 
+                className="w-full bg-primary hover:bg-primary/90 text-white rounded-lg py-3 px-4 font-medium transition-colors"
+                onClick={() => window.open(`https://wa.me/60126616973?text=${encodeURIComponent("Hi! I'm interested in Aipixel corporate AI photobooth rental for my event in KL/Selangor. Can you provide more details and pricing?")}`)}
+              >
+                📋 Get Aipixel Quote for Selangor Events
               </button>
-              <button className="w-full bg-green-600 hover:bg-green-700 text-white rounded-lg py-3 px-4 font-medium transition-colors">
-                💬 WhatsApp for KL AI Photobooth
+              <button 
+                className="w-full bg-green-600 hover:bg-green-700 text-white rounded-lg py-3 px-4 font-medium transition-colors"
+                onClick={() => window.open(`https://wa.me/60126616973?text=${encodeURIComponent("Hi! I'm interested in Aipixel corporate AI photobooth rental for my event in KL/Selangor. Can you provide more details and pricing?")}`)}
+              >
+                💬 WhatsApp Aipixel for KL AI Photobooth
               </button>
-              <button className="w-full bg-white/10 hover:bg-white/20 text-white rounded-lg py-3 px-4 font-medium transition-colors">
-                📞 Call for Kuala Lumpur Booking
+              <button 
+                className="w-full bg-white/10 hover:bg-white/20 text-white rounded-lg py-3 px-4 font-medium transition-colors"
+                onClick={() => window.location.href = "tel:+60126616973"}
+              >
+                📞 Call Aipixel for Kuala Lumpur Booking
               </button>
             </div>
             
@@ -135,11 +144,11 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-white/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-sm opacity-70">
-            © 2024 AI Photobooth KL & Selangor. All rights reserved.
+            © 2024 Aipixel.my - AI Photobooth KL & Selangor. All rights reserved.
           </div>
           
           <div className="flex items-center gap-6 text-sm">
-            <span className="opacity-70">Powered by Lovable</span>
+            <span className="opacity-70">Visit aipixel.my</span>
             <span className="opacity-70">•</span>
             <span className="text-green-400">🟢 Currently Available</span>
           </div>
